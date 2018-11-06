@@ -2,9 +2,6 @@
 
 
 set -e  # errexit
-set -x
-
-echo "$0" "$@"
 
 # Set up directories
 mkdir -p /var/log/squid && \
